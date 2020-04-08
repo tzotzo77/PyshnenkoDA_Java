@@ -6,6 +6,6 @@ public class ZZZ {
 
         absval = val < 0 ? -val : val;
 
-        System.out.println(" " + absval);
+        System.out.println("  " + absval);
     }
 }
