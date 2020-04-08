@@ -1,4 +1,4 @@
-public class Test {
+public class ZZZ {
     public static void main(String[] args) {
         int absval, val;
 
