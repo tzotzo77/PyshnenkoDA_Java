@@ -1,5 +1,11 @@
 public class Test {
     public static void main(String[] args) {
-        System.out.println("Hello, world!");
+        int absval, val;
+
+        val = -5;
+
+        absval = val < 0 ? -val : val;
+
+        System.out.println(" " + absval);
     }
 }
