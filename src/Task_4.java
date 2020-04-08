@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Task_4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Введите число в бинарном формате : ");
+        System.out.println(" Введите число в бинарном формате : ");
         String binNum = sc.nextLine();
         int decimalNum = 0;
         int arrInt = 0;
