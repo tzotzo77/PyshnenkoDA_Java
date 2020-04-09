@@ -1,7 +1,9 @@
 public class Task_8 {
     public static void main(String[] args) {
-        for (int i = 1; i < 51; i++){
-            System.out.print(i + " ");
+        int counter = 1;
+        while(counter < 51){
+            System.out.print(counter + " ");
+            counter++;
         }
     }
 }
