@@ -5,7 +5,7 @@ public class Task_9 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Задайте размер массива : ");
         int arrLength = sc.nextInt();
-        if (arrLength == 0){
+        if (arrLength <= 0){
             System.out.println("Массив не содержит ни одного элемента !");
             System.out.println("Заполнять не во что, выводить нечего...");
         }

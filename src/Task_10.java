@@ -6,14 +6,14 @@ public class Task_10 {
         System.out.println("Задайте размер матрицы :");
         System.out.print("Число срок = ");
         int arrStrings = sc.nextInt();
-        if (arrStrings == 0) {
+        if (arrStrings <= 0) {
             System.out.println("");
             System.out.println("Матрица не содержит ни одного элемента !");
             System.out.println("Заполнять не во что, выводить нечего...");
         } else {
             System.out.print("Число столюцов = ");
             int arrСolumns = sc.nextInt();
-            if (arrСolumns == 0) {
+            if (arrСolumns <= 0) {
                 System.out.println("");
                 System.out.println("Матрица не содержит ни одного элемента !");
                 System.out.println("Заполнять не во что, выводить нечего...");
